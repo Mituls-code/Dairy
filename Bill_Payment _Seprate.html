@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portal -Admin Dashboard Template For Developers</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portal - Bootstrap 5 Admin Dashboard Template For Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- FontAwesome JS-->
+    <script defer src="assets/plugins/fontawesome/js/all.min.js"></script>
+
+    <!-- App CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/portal.css">
+
+</head>
+
+<body class="app">
+    <header class="app-header fixed-top">
+        <div class="app-header-inner">
+            <div class="container-fluid py-2">
+                <div class="app-header-content">
+                    <div class="row justify-content-between align-items-center">
+
+                        <div class="col-auto">
+                            <a id="sidepanel-toggler" class="sidepanel-toggler d-inline-block d-xl-none" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+                            </a>
+                        </div>
+                        <!--//col-->
+                        <div class="search-mobile-trigger d-sm-none col">
+                            <i class="search-mobile-trigger-icon fas fa-search"></i>
+                        </div>
+                        <!--//col-->
+                        <div class="app-search-box col">
+                            <form class="app-search-form">
+                                <input type="text" placeholder="Search..." name="search" class="form-control search-input">
+                                <button type="submit" class="btn search-btn btn-primary" value="Search"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+
+                    </div>
+                    <!--//app-header-content-->
+                </div>
+                <!--//container-fluid-->
+            </div>
+            <!--//app-header-inner-->
+            <div id="app-sidepanel" class="app-sidepanel sidepanel-hidden">
+                <div id="sidepanel-drop" class="sidepanel-drop"></div>
+                <div class="sidepanel-inner d-flex flex-column">
+                    <a href="#" id="sidepanel-close" class="sidepanel-close d-xl-none">&times;</a>
+                    <div class="app-branding">
+                        <a class="app-logo" href="index.html"><img class="logo-icon me-2" src="assets/images/app-logo.svg" alt="logo"><span class="logo-text">PORTAL</span></a>
+
+                    </div>
+                    <!--//app-branding-->
+                    <nav id="app-nav-main" class="app-nav app-nav-main flex-grow-1">
+                        <ul class="app-menu list-unstyled accordion" id="menu-accordion">
+                            <li class="nav-item has-submenu">
+                                <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                                <a class="nav-link active submenu-toggle" href="index.html" data-bs-toggle="collapse" data-bs-target="#submenu-1" aria-expanded="false" aria-controls="submenu-1">
+                                    <span class="nav-icon">
+						        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+		  <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+		  <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+		</svg>
+						         </span>
+                                    <span class="nav-link-text">Dashboard</span>
+                                    <span class="submenu-arrow">
+									<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+	 <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+   </svg>
+								</span>
+                                    <!--//submenu-arrow-->
+                                </a>
+                                <!--//nav-link-->
+                            </li>
+                            <!--//nav-item-->
+                            <div id="submenu-1" class="collapse submenu submenu-1" data-bs-parent="#menu-accordion">
+                                <ul class="submenu-list list-unstyled">
+                                    <li class="submenu-item"><a class="submenu-link" href="notifications.html">Stock Details Master</a></li>
+                                    <li class="submenu-item"><a class="submenu-link" href="account.html">Bill Payment City Master</a></li>
+                                    <li class="submenu-item"><a class="submenu-link" href="settings.html">Bill Payment Village Master</a></li>
+                                    <li class="submenu-item"><a class="submenu-link" href="Bill_Payment _Seprate.html">Bill Payment Seprate</a></li>
+
+
+                                </ul>
+                            </div>
+
+                            <li class="nav-item">
+                                <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                                <a class="nav-link" href="Rate Master.html">
+                                    <span class="nav-icon">
+						        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+  <path fill-rule="evenodd" d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/>
+  <circle cx="3.5" cy="5.5" r=".5"/>
+  <circle cx="3.5" cy="8" r=".5"/>
+  <circle cx="3.5" cy="10.5" r=".5"/>
+</svg>
+						         </span>
+                                    <span class="nav-link-text">Rate Master</span>
+                                </a>
+                                <!--//nav-link-->
+                            </li>
+
+                            <li class="nav-item has-submenu">
+                                <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                                <a class="nav-link submenu-toggle" href="#" data-bs-toggle="collapse" data-bs-target="#submenu-2" aria-expanded="false" aria-controls="submenu-2">
+                                    <span class="nav-icon">
+						        <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+						        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-columns-gap" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+	  <path fill-rule="evenodd" d="M6 1H1v3h5V1zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12h-5v3h5v-3zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8H1v7h5V8zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6h-5v7h5V1zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z"/>
+	</svg>
+						         </span>
+                                    <span class="nav-link-text">External</span>
+                                    <span class="submenu-arrow">
+		                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+	  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+	</svg>
+	                             </span>
+                                    <!--//submenu-arrow-->
+                                </a>
+                                <!--//nav-link-->
+                                <div id="submenu-2" class="collapse submenu submenu-2" data-bs-parent="#menu-accordion">
+                                    <ul class="submenu-list list-unstyled">
+                                        <li class="submenu-item"><a class="submenu-link" href="login.html">Login</a></li>
+                                        <li class="submenu-item"><a class="submenu-link" href="signup.html">Signup</a></li>
+                                        <li class="submenu-item"><a class="submenu-link" href="reset-password.html">Reset password</a></li>
+                                        <li class="submenu-item"><a class="submenu-link" href="404.html">404 page</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!--//nav-item-->
+                            <li class="nav-item">
+                                <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                                <a class="nav-link" href="AddMember.html">
+                                    <span class="nav-icon">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+      <path fill-rule="evenodd" d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/>
+      <circle cx="3.5" cy="5.5" r=".5"/>
+      <circle cx="3.5" cy="8" r=".5"/>
+      <circle cx="3.5" cy="10.5" r=".5"/>
+    </svg>
+                                     </span>
+                                    <span class="nav-link-text">AddMember</span>
+                                </a>
+                                <!--//nav-link-->
+                            </li>
+                            <!--//nav-item-->
+                            <li class="nav-item">
+                                <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                                <a class="nav-link" href="ChangePassword.html">
+                                    <span class="nav-icon">
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+<path fill-rule="evenodd" d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/>
+<circle cx="3.5" cy="5.5" r=".5"/>
+<circle cx="3.5" cy="8" r=".5"/>
+<circle cx="3.5" cy="10.5" r=".5"/>
+</svg>
+</span>
+                                    <span class="nav-link-text">ChangePassword</span>
+                                </a>
+                                <!--//nav-link-->
+                            </li>
+                            <!--//nav-item-->
+                            <li class="nav-item">
+                                <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                                <a class="nav-link" href="logout.html">
+                                    <span class="nav-icon">
+<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+<path fill-rule="evenodd" d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/>
+<circle cx="3.5" cy="5.5" r=".5"/>
+<circle cx="3.5" cy="8" r=".5"/>
+<circle cx="3.5" cy="10.5" r=".5"/>
+</svg>
+</span>
+                                    <span class="nav-link-text">logout</span>
+                                </a>
+                                <!--//nav-link-->
+                            </li>
+
+                        </ul>
+                        <!--//app-menu-->
+                    </nav>
+                    <!--//app-nav-->
+                    <div class="app-sidepanel-footer">
+                        <nav class="app-nav app-nav-footer">
+
+                        </nav>
+                    </div>
+                    <!--//app-sidepanel-footer-->
+                </div>
+                <!--//sidepanel-inner-->
+            </div>
+            <!--//app-sidepanel-->
+        </div>
+    </header>
+    <!--//app-header-->
+
+    <div class="app-wrapper">
+        <div class="col-md-12">
+            <div class="widget">
+                <div class="widget-head">
+                    <div class="pull-left">
+                        <input id="ContentPlaceHolder1_RadioMorning" type="radio" name="ctl00$ContentPlaceHolder1$g1" value="RadioMorning" onclick="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RadioMorning\',\'\')', 0)"><label for="ContentPlaceHolder1_RadioMorning">Morning</label>
+                        <input id="ContentPlaceHolder1_RadioEvening" type="radio" name="ctl00$ContentPlaceHolder1$g1" value="RadioEvening" onclick="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RadioEvening\',\'\')', 0)"><label for="ContentPlaceHolder1_RadioEvening">Evening</label>
+                        <input id="ContentPlaceHolder1_RadioBoth" type="radio" name="ctl00$ContentPlaceHolder1$g1" value="RadioBoth" onclick="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RadioBoth\',\'\')', 0)"><label for="ContentPlaceHolder1_RadioBoth">Morning &amp; Evening</label>
+                    </div>
+                    <div class="widget-icons pull-right">
+                        <a href="#" class="wminimize"><i class="fa fa-chevron-up"></i></a>
+                        <a href="#" class="wclose">
+                            <i class="fa fa-times"></i></a>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                </div>
+                <div id="ContentPlaceHolder1_Panel1">
+
+                    <div class="print-section">
+                        <table class="table" style="margin-bottom: -30px; width: 100%;">
+                            <caption class="text-center"><b>|| SHREE HARI ||</b></caption>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="col-md-6 col-sm-8">
+                                            <div>
+                                                <select name="ctl00$ContentPlaceHolder1$ddlnamecity" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlnamecity\',\'\')', 0)" id="ContentPlaceHolder1_ddlnamecity" class="form-control ">
+		<option selected="selected" value="0">----Select Name----</option>
+		<option value="1">Sharma Dughdhalay</option>
+		<option value="4">Dhrmeshbhai </option>
+		<option value="5">Desai</option>
+		<option value="31">Rajubhai Rabari</option>
+		<option value="42">Janakbhai  Rabari</option>
+		<option value="41">Sohilbhai</option>
+		<option value="6">Feez Dairy</option>
+		<option value="16">Pintubhai</option>
+		<option value="9">Eagal Dudh Depo</option>
+		<option value="10">Rehan Dudh Depo</option>
+		<option value="11">Abheshingbhai</option>
+		<option value="12">Bhaveshbhai</option>
+		<option value="13">Kamleshbhai</option>
+		<option value="14">Ashishbhai </option>
+		<option value="25">Ganesh Dairy</option>
+		<option value="28">Nilbhai</option>
+		<option value="7">aambalal </option>
+		<option value="3">Zamzam dairy </option>
+		<option value="17">Jagadamba dairy</option>
+		<option value="18">Arvindbhai</option>
+		<option value="19">Khodabhai</option>
+		<option value="20">Valjibhai</option>
+		<option value="8">Shankarbhai</option>
+		<option value="43">Bhagubhai Rabari</option>
+		<option value="21">Kamlesh Rabari</option>
+		<option value="24">Maheshbhai </option>
+		<option value="39">Satishbhai Rabari</option>
+		<option value="34">Piludara Dairy</option>
+		<option value="22">Vipulbhai</option>
+		<option value="36">Manishbhai    </option>
+		<option value="38">Kareli Dairy    </option>
+		<option value="15">Shree Bajarang dudh dairy</option>
+		<option value="2">Vraj dairy </option>
+		<option value="32">Umiya Dairy</option>
+		<option value="40">Umiya Dairy</option>
+		<option value="37">Niranjanbhai</option>
+		<option value="30">Rajnibhai</option>
+		<option value="33">Gotri</option>
+
+	</select>
+                                                <span id="ContentPlaceHolder1_lblname"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-8">
+                                            <span id="ContentPlaceHolder1_lbladdress" style="font-size:17px;"></span>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="col-md-5" style="float: right;">
+                                            <div>
+                                                <input name="ctl00$ContentPlaceHolder1$txtstrat" type="date" id="ContentPlaceHolder1_txtstrat" class="form-control">
+                                            </div>
+                                            <div>
+                                                <input name="ctl00$ContentPlaceHolder1$txtend" type="date" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$txtend\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ContentPlaceHolder1_txtend"
+                                                    class="form-control">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="widget-content" style="margin-bottom: 30px; margin-top: 30px;">
+                        <div class="form-horizontal">
+                            <div class="container">
+                                <div class="tabbable">
+                                    <div class="tab-content">
+                                        <fieldset class="col-lg-12">
+                                            <legend style="padding-bottom: 5px; font-size: 17px;"></legend>
+                                            <div class="col-lg-12" style="margin-top: 10px; height: auto; padding: 0px">
+                                                <div class="col-lg-12" style="padding: 0px">
+                                                    <div class="panel panel-primary">
+                                                        <div class="panel-heading">
+                                                        </div>
+                                                        <div class="panel-body"></div>
+                                                    </div>
+                                                    <div class="total-amount" style="margin-top: 10px;">
+
+                                                        <div class="container">
+                                                            <table class="table" style="margin: auto; width: 45%; float: right;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span id="ContentPlaceHolder1_Label3"><b>Total Liters:</b></span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="form-group" style="margin-bottom: 0px;">
+                                                                                <div>
+                                                                                    <span id="ContentPlaceHolder1_lbltotalamount"></span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span id="ContentPlaceHolder1_Label5"><b>Customer Rate :</b></span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="form-group" style="margin-bottom: 0px;">
+                                                                                <div>
+                                                                                    <span id="ContentPlaceHolder1_lblrate"></span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span id="ContentPlaceHolder1_Label6"><b>Current Bill Amount:</b></span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="form-group" style="margin-bottom: 0px;">
+                                                                                <div>
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span id="ContentPlaceHolder1_lbl2">Cream:</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="form-group" style="margin-bottom: 0px;">
+                                                                                <div>
+                                                                                    <input name="ctl00$ContentPlaceHolder1$txtcream" type="text" id="ContentPlaceHolder1_txtcream" class="form-control" style="width:100px;">
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <input name="ctl00$ContentPlaceHolder1$txtkilogram" type="text" id="ContentPlaceHolder1_txtkilogram" class="form-control" style="width:100px;">
+
+                                                                        </td>
+                                                                        <td style="padding-top: 5px; padding-right: 8px;">
+                                                                            <span id="ContentPlaceHolder1_lblkilogram">Kilogram</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span id="ContentPlaceHolder1_lbl3">Garam:</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="form-group" style="margin-bottom: 0px;">
+                                                                                <div>
+                                                                                    <input name="ctl00$ContentPlaceHolder1$txtgaram" type="text" id="ContentPlaceHolder1_txtgaram" class="form-control" style="width:100px;">
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span id="ContentPlaceHolder1_lbl4">Last Left:</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="form-group" style="margin-bottom: 0px;">
+                                                                                <div>
+                                                                                    <input name="ctl00$ContentPlaceHolder1$txtlastleft" type="text" id="ContentPlaceHolder1_txtlastleft" class="form-control" style="width:100px;">
+
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <span id="ContentPlaceHolder1_lbl5">Last Balance:</span>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="form-group">
+                                                                                <div>
+                                                                                    <input name="ctl00$ContentPlaceHolder1$txtlastbaleance" type="text" id="ContentPlaceHolder1_txtlastbaleance" class="form-control" style="width:100px;">
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <label for="exampleInputName2"><b style="font-size: 18px;">Total Amount:</b></label>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="form-group">
+                                                                                <div>
+                                                                                    <span id="ContentPlaceHolder1_lblalltotalamount" style="font-size:20px;"></span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pull-right">
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="pull-right" style="padding: 10px;">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="Print" id="ContentPlaceHolder1_Button1" class="btn btn-primary" style="height:30px;">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--//app-content-->
+
+    <footer class="app-footer">
+        <div class="container text-center py-3">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="app-link" href="http://themes.3rdwavemedia.com" target="_blank">One Wab Technology</a> for developers</small>
+
+        </div>
+    </footer>
+
+
+
+
+    <!-- Javascript -->
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Page Specific JS -->
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
