@@ -18,6 +18,7 @@
 
     <!-- App CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/portal.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
 </head>
 
@@ -106,6 +107,23 @@
 </svg>
 						         </span>
                                     <span class="nav-link-text">Rate Master</span>
+                                </a>
+                                <!--//nav-link-->
+                            </li>
+                            <!--//nav-item-->
+                            <li class="nav-item">
+                                <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                                <a class="nav-link" href="Registration.html">
+                                    <span class="nav-icon">
+						        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+  <path fill-rule="evenodd" d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/>
+  <circle cx="3.5" cy="5.5" r=".5"/>
+  <circle cx="3.5" cy="8" r=".5"/>
+  <circle cx="3.5" cy="10.5" r=".5"/>
+</svg>
+						         </span>
+                                    <span class="nav-link-text">Registration</span>
                                 </a>
                                 <!--//nav-link-->
                             </li>
@@ -206,114 +224,40 @@
         </div>
     </header>
     <!--//app-header-->
-
     <div class="app-wrapper">
-        <div class="col-md-12">
-            <div class="widget">
-                <div class="widget-head">
-                    <div class="pull-left">
-                        <input id="ContentPlaceHolder1_RadioMorning" type="radio" name="ctl00$ContentPlaceHolder1$g1" value="RadioMorning" onclick="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RadioMorning\',\'\')', 0)"><label for="ContentPlaceHolder1_RadioMorning">Morning</label>
-                        <input id="ContentPlaceHolder1_RadioEvening" type="radio" name="ctl00$ContentPlaceHolder1$g1" value="RadioEvening" onclick="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RadioEvening\',\'\')', 0)"><label for="ContentPlaceHolder1_RadioEvening">Evening</label>
-                        <input id="ContentPlaceHolder1_RadioBoth" type="radio" name="ctl00$ContentPlaceHolder1$g1" value="RadioBoth" onclick="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RadioBoth\',\'\')', 0)"><label for="ContentPlaceHolder1_RadioBoth">Morning &amp; Evening</label>
-                    </div>
-                    <div class="widget-icons pull-right">
-                        <a href="#" class="wminimize"><i class="fa fa-chevron-up"></i></a>
-                        <a href="#" class="wclose">
-                            <i class="fa fa-times"></i></a>
-                    </div>
-                    <div class="clearfix">
-                    </div>
-                </div>
-                <div id="ContentPlaceHolder1_Panel1">
-
-                    <div class="print-section">
-                        <table class="table" style="margin-bottom: -30px; width: 100%;">
-                            <caption class="text-center"><b>|| SHREE HARI ||</b></caption>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="col-md-6 col-sm-8">
-                                            <div>
-                                                <select name="ctl00$ContentPlaceHolder1$ddlnamecity" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlnamecity\',\'\')', 0)" id="ContentPlaceHolder1_ddlnamecity" class="form-control ">
-		<option selected="selected" value="0">----Select Name----</option>
-		<option value="1">Sharma Dughdhalay</option>
-		<option value="4">Dhrmeshbhai </option>
-		<option value="5">Desai</option>
-		<option value="31">Rajubhai Rabari</option>
-		<option value="42">Janakbhai  Rabari</option>
-		<option value="41">Sohilbhai</option>
-		<option value="6">Feez Dairy</option>
-		<option value="16">Pintubhai</option>
-		<option value="9">Eagal Dudh Depo</option>
-		<option value="10">Rehan Dudh Depo</option>
-		<option value="11">Abheshingbhai</option>
-		<option value="12">Bhaveshbhai</option>
-		<option value="13">Kamleshbhai</option>
-		<option value="14">Ashishbhai </option>
-		<option value="25">Ganesh Dairy</option>
-		<option value="28">Nilbhai</option>
-		<option value="7">aambalal </option>
-		<option value="3">Zamzam dairy </option>
-		<option value="17">Jagadamba dairy</option>
-		<option value="18">Arvindbhai</option>
-		<option value="19">Khodabhai</option>
-		<option value="20">Valjibhai</option>
-		<option value="8">Shankarbhai</option>
-		<option value="43">Bhagubhai Rabari</option>
-		<option value="21">Kamlesh Rabari</option>
-		<option value="24">Maheshbhai </option>
-		<option value="39">Satishbhai Rabari</option>
-		<option value="34">Piludara Dairy</option>
-		<option value="22">Vipulbhai</option>
-		<option value="36">Manishbhai    </option>
-		<option value="38">Kareli Dairy    </option>
-		<option value="15">Shree Bajarang dudh dairy</option>
-		<option value="2">Vraj dairy </option>
-		<option value="32">Umiya Dairy</option>
-		<option value="40">Umiya Dairy</option>
-		<option value="37">Niranjanbhai</option>
-		<option value="30">Rajnibhai</option>
-		<option value="33">Gotri</option>
-
-	</select>
-                                                <span id="ContentPlaceHolder1_lblname"></span>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 col-sm-8">
-                                            <span id="ContentPlaceHolder1_lbladdress" style="font-size:17px;"></span>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="col-md-5" style="float: right;">
-                                            <div>
-                                                <input name="ctl00$ContentPlaceHolder1$txtstrat" type="date" id="ContentPlaceHolder1_txtstrat" class="form-control">
-                                            </div>
-                                            <div>
-                                                <input name="ctl00$ContentPlaceHolder1$txtend" type="date" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$txtend\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ContentPlaceHolder1_txtend"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="widget-content" style="margin-bottom: 30px; margin-top: 30px;">
-                        <div class="form-horizontal">
-                            <div class="container">
-                                <div class="tabbable">
-                                    <div class="tab-content">
-                                        <fieldset class="col-lg-12">
-                                            <legend style="padding-bottom: 5px; font-size: 17px;"></legend>
-                                            <div class="col-lg-12" style="margin-top: 10px; height: auto; padding: 0px">
-                                                <div class="col-lg-12" style="padding: 0px">
-                                                    <div class="panel panel-primary">
-                                                        <div class="panel-heading">
-                                                        </div>
-                                                        <div class="panel-body"></div>
-                                                    </div>
+        <div class="app-content pt-3 p-md-3 p-lg-4">
+            <div class="col-md-12">
+                <div class="widget">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="text-success">Bill Payment Separate</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <select class="form-select" style="width: 20%;" aria-label="Default select example">
+                        <option selected>Select Name </option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <input type="date" class="form-control" style="width: 20%; float: right">
+                                <br/>
+                                <br/>
+                                <input type="date" class="form-control" style="width: 20%; float: right;">
+                            </div>
+                        </div>
+                        <div id="ContentPlaceHolder1_Panel1">
+                            <div class="widget-content">
+                                <div class="form-horizontal">
+                                    <div class="container">
+                                        <div class="table-bordered">
+                                            <div class="tab-content">
+                                                <div class="col-lg-12">
                                                     <div class="total-amount" style="margin-top: 10px;">
-
                                                         <div class="container">
                                                             <table class="table" style="margin: auto; width: 45%; float: right;">
                                                                 <tbody>
@@ -321,6 +265,7 @@
                                                                         <td>
                                                                             <span id="ContentPlaceHolder1_Label3"><b>Total Liters:</b></span>
                                                                         </td>
+
                                                                         <td>
                                                                             <div class="form-group" style="margin-bottom: 0px;">
                                                                                 <div>
@@ -362,8 +307,6 @@
                                                                             <div class="form-group" style="margin-bottom: 0px;">
                                                                                 <div>
                                                                                     <input name="ctl00$ContentPlaceHolder1$txtcream" type="text" id="ContentPlaceHolder1_txtcream" class="form-control" style="width:100px;">
-
-
                                                                                 </div>
                                                                             </div>
                                                                         </td>
@@ -432,30 +375,29 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="pull-right">
-                                            </div>
-                                        </fieldset>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <input type="submit" class="col-1 btn btn-success m-auto mb-2">
                     </div>
-
                 </div>
 
-                <div class="pull-right" style="padding: 10px;">
-                    <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="Print" id="ContentPlaceHolder1_Button1" class="btn btn-primary" style="height:30px;">
-                </div>
+
             </div>
 
         </div>
+
     </div>
+
+
     <!--//app-content-->
 
     <footer class="app-footer">
-        <div class="container text-center py-3">
-            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-            <small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="app-link" href="http://themes.3rdwavemedia.com" target="_blank">One Wab Technology</a> for developers</small>
+        <div class="container text-center py-3 m-auto">
+            <small class="copyright">Designed with by Aathmiya Duth Dairy for developers</small>
 
         </div>
     </footer>
@@ -469,7 +411,7 @@
 
     <!-- Page Specific JS -->
     <script src="assets/js/app.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 
 </html>

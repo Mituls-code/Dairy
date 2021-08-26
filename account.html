@@ -111,6 +111,23 @@
                                 </a>
                                 <!--//nav-link-->
                             </li>
+                            <!--//nav-item-->
+                            <li class="nav-item">
+                                <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
+                                <a class="nav-link" href="Registration.html">
+                                    <span class="nav-icon">
+						        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+  <path fill-rule="evenodd" d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/>
+  <circle cx="3.5" cy="5.5" r=".5"/>
+  <circle cx="3.5" cy="8" r=".5"/>
+  <circle cx="3.5" cy="10.5" r=".5"/>
+</svg>
+						         </span>
+                                    <span class="nav-link-text">Registration</span>
+                                </a>
+                                <!--//nav-link-->
+                            </li>
 
                             <li class="nav-item has-submenu">
                                 <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
@@ -209,32 +226,27 @@
     </header>
     <!--//app-header-->
     <div class="app-wrapper">
-        <div class="container-fluid">
-            <div class="col-md-12">
-                <div class="widget">
-                    <div class="widget-head">
-                        <div class="pull-left">
-                            <input id="ContentPlaceHolder1_RadioMorning" type="radio" name="ctl00$ContentPlaceHolder1$g1" value="RadioMorning" onclick="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RadioMorning\',\'\')', 0)"><label for="ContentPlaceHolder1_RadioMorning">Morning</label>
-                            <input id="ContentPlaceHolder1_RadioEvening" type="radio" name="ctl00$ContentPlaceHolder1$g1" value="RadioEvening" onclick="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RadioEvening\',\'\')', 0)"><label for="ContentPlaceHolder1_RadioEvening">Evening</label>
-                            <input id="ContentPlaceHolder1_RadioBoth" type="radio" name="ctl00$ContentPlaceHolder1$g1" value="RadioBoth" onclick="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RadioBoth\',\'\')', 0)"><label for="ContentPlaceHolder1_RadioBoth">Morning &amp; Evening</label>
+        <div class="app-content pt-3 p-md-3 p-lg-4">
+
+            <div class="container-xl">
+
+                <div class="col-md-12">
+                    <div class="widget">
+                        <div class="card-header">
+                            <h1 class="text-success d-inline-block">Bill Payment City Master</h1>
+
+
                         </div>
-                        <div class="widget-icons pull-right">
-                            <a href="#" class="wminimize"><i class="fa fa-chevron-up"></i></a>
-                            <a href="#" class="wclose">
-                                <i class="fa fa-times"></i></a>
-                        </div>
-                        <div class="clearfix">
-                        </div>
-                    </div>
-                    <div id="ContentPlaceHolder1_Panel1">
-                        <div class="print-section">
-                            <table class="table" style="margin-bottom: -30px; width: 100%">
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="col-md-6 col-sm-8">
-                                                <div>
-                                                    <select name="" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlnamecity\',\'\')', 0)" id="ContentPlaceHolder1_ddlnamecity" class="form-control ">
+
+                        <div id="ContentPlaceHolder1_Panel1">
+                            <div class="print-section">
+                                <table class="table" style="margin-bottom: -30px; width: 100%">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="col-md-6 col-sm-8">
+                                                    <div>
+                                                        <select name="" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$ddlnamecity\',\'\')', 0)" id="ContentPlaceHolder1_ddlnamecity" class="form-control ">
                                                 <option selected="selected" value="0">----Select Name----</option>
                                                 <option value="1">Sharma Dughdhalay</option>
             <option value="4">Dhrmeshbhai </option>
@@ -277,239 +289,239 @@
 
                                                 </select>
 
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-4 col-sm-8">
-                                                <span id="ContentPlaceHolder1_lbladdress" style="font-size:17px;"></span>
+                                                <div class="col-md-4 col-sm-8">
+                                                    <span id="ContentPlaceHolder1_lbladdress" style="font-size:17px;"></span>
 
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="col-md-5 col-sm-12" style="float: right;">
-                                                <div>
-                                                    <input name="ctl00$ContentPlaceHolder1$txtstrat" type="date" id="ContentPlaceHolder1_txtstrat" class="form-control">
                                                 </div>
-                                                <div>
-                                                    <input name="ctl00$ContentPlaceHolder1$txtend" type="date" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$txtend\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ContentPlaceHolder1_txtend"
-                                                        class="form-control">
+                                            </td>
+                                            <td>
+                                                <div class="col-md-5 col-sm-12" style="float: right;">
+                                                    <div>
+                                                        <input name="ctl00$ContentPlaceHolder1$txtstrat" type="date" id="ContentPlaceHolder1_txtstrat" class="form-control">
+                                                    </div>
+                                                    <div>
+                                                        <input name="ctl00$ContentPlaceHolder1$txtend" type="date" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$txtend\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ContentPlaceHolder1_txtend"
+                                                            class="form-control">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="widget-content" style="margin-bottom: 30px; margin-top: 30px;">
-                            <div class="form-horizontal">
-                                <div class="container">
-                                    <div class="tabbable">
-                                        <div class="tab-content">
-                                            <fieldset class="col-lg-12">
-                                                <legend style="padding-bottom: 5px; font-size: 17px;"></legend>
-                                                <div class="col-lg-12" style="margin-top: 10px; height: auto; padding: 0px">
-                                                    <div class="col-lg-12" style="padding: 0px">
-                                                        <div class="panel panel-primary">
-                                                            <div class="panel-heading">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="widget-content" style="margin-bottom: 30px; margin-top: 30px;">
+                                <div class="form-horizontal">
+                                    <div class="container">
+                                        <div class="tabbable">
+                                            <div class="tab-content">
+                                                <fieldset class="col-lg-12">
+                                                    <legend style="padding-bottom: 5px; font-size: 17px;"></legend>
+                                                    <div class="col-lg-12" style="margin-top: 10px; height: auto; padding: 0px">
+                                                        <div class="col-lg-12" style="padding: 0px">
+                                                            <div class="panel panel-primary">
+                                                                <div class="panel-heading">
+                                                                </div>
+                                                                <div class="panel-body">
+
+
+                                                                </div>
                                                             </div>
-                                                            <div class="panel-body">
+                                                            <div class="total-amount" style="margin-top: 10px;">
 
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="total-amount" style="margin-top: 10px;">
-
-                                                            <div class="container">
-                                                                <table class="table" style="margin: auto; width: 45%">
-                                                                    <tbody>
-                                                                        <tr>
-                                                                            <td style="width: 55%;">
-                                                                                <span id="ContentPlaceHolder1_Label1"><b>Morning Total:</b></span>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group" style="margin-bottom: 0px;">
-                                                                                    <div>
-                                                                                        <span id="ContentPlaceHolder1_lblmtotal"></span>
+                                                                <div class="container">
+                                                                    <table class="table" style="margin: auto; width: 45%">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style="width: 55%;">
+                                                                                    <span id="ContentPlaceHolder1_Label1"><b>Morning Total:</b></span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group" style="margin-bottom: 0px;">
+                                                                                        <div>
+                                                                                            <span id="ContentPlaceHolder1_lblmtotal"></span>
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="width: 55%;">
-                                                                                <span id="ContentPlaceHolder1_Label2"><b>Evening Total:</b></span>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group" style="margin-bottom: 0px;">
-                                                                                    <div>
-                                                                                        <span id="ContentPlaceHolder1_lbletotal"></span>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="width: 55%;">
+                                                                                    <span id="ContentPlaceHolder1_Label2"><b>Evening Total:</b></span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group" style="margin-bottom: 0px;">
+                                                                                        <div>
+                                                                                            <span id="ContentPlaceHolder1_lbletotal"></span>
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="width: 55%;">
-                                                                                <span id="ContentPlaceHolder1_Label3"><b>KiloFat Total:</b></span>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group" style="margin-bottom: 0px;">
-                                                                                    <div>
-                                                                                        <span id="ContentPlaceHolder1_lbltotalamount"></span>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="width: 55%;">
+                                                                                    <span id="ContentPlaceHolder1_Label3"><b>KiloFat Total:</b></span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group" style="margin-bottom: 0px;">
+                                                                                        <div>
+                                                                                            <span id="ContentPlaceHolder1_lbltotalamount"></span>
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="width: 55%;">
-                                                                                <span id="ContentPlaceHolder1_Label5"><b>Customer Rate :</b></span>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group" style="margin-bottom: 0px;">
-                                                                                    <div>
-                                                                                        <span id="ContentPlaceHolder1_lblrate"></span>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="width: 55%;">
+                                                                                    <span id="ContentPlaceHolder1_Label5"><b>Customer Rate :</b></span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group" style="margin-bottom: 0px;">
+                                                                                        <div>
+                                                                                            <span id="ContentPlaceHolder1_lblrate"></span>
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="width: 55%;">
-                                                                                <span id="ContentPlaceHolder1_Label6"><b>Current Bill Amount:</b></span>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group" style="margin-bottom: 0px;">
-                                                                                    <div>
-                                                                                        <span id="ContentPlaceHolder1_lblrateamount"></span>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="width: 55%;">
+                                                                                    <span id="ContentPlaceHolder1_Label6"><b>Current Bill Amount:</b></span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group" style="margin-bottom: 0px;">
+                                                                                        <div>
+                                                                                            <span id="ContentPlaceHolder1_lblrateamount"></span>
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="width: 55%;">
-                                                                                <span id="ContentPlaceHolder1_lbl1">Sp:</span>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group" style="margin-bottom: 0px;">
-                                                                                    <div>
-                                                                                        <input name="ctl00$ContentPlaceHolder1$txtsp" type="text" id="ContentPlaceHolder1_txtsp" class="form-control" style="width:100px;">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="width: 55%;">
+                                                                                    <span id="ContentPlaceHolder1_lbl1">Sp:</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group" style="margin-bottom: 0px;">
+                                                                                        <div>
+                                                                                            <input name="ctl00$ContentPlaceHolder1$txtsp" type="text" id="ContentPlaceHolder1_txtsp" class="form-control" style="width:100px;">
 
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <input name="ctl00$ContentPlaceHolder1$txtliter" type="text" id="ContentPlaceHolder1_txtliter" class="form-control" style="width:100px;">
+                                                                                </td>
+                                                                                <td>
+                                                                                    <input name="ctl00$ContentPlaceHolder1$txtliter" type="text" id="ContentPlaceHolder1_txtliter" class="form-control" style="width:100px;">
 
 
-                                                                            </td>
-                                                                            <td style="padding-top: 5px; padding-right: 8px;">
-                                                                                <span id="ContentPlaceHolder1_lblliter">Liter</span>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="width: 55%;">
-                                                                                <span id="ContentPlaceHolder1_lbl2">Cream:</span>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group" style="margin-bottom: 0px;">
-                                                                                    <div>
-                                                                                        <input name="ctl00$ContentPlaceHolder1$txtcream" type="text" id="ContentPlaceHolder1_txtcream" class="form-control" style="width:100px;">
+                                                                                </td>
+                                                                                <td style="padding-top: 5px; padding-right: 8px;">
+                                                                                    <span id="ContentPlaceHolder1_lblliter">Liter</span>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="width: 55%;">
+                                                                                    <span id="ContentPlaceHolder1_lbl2">Cream:</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group" style="margin-bottom: 0px;">
+                                                                                        <div>
+                                                                                            <input name="ctl00$ContentPlaceHolder1$txtcream" type="text" id="ContentPlaceHolder1_txtcream" class="form-control" style="width:100px;">
 
 
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </td>
-                                                                            <td>
-                                                                                <input name="ctl00$ContentPlaceHolder1$txtkilogram" type="text" id="ContentPlaceHolder1_txtkilogram" class="form-control" style="width:100px;">
+                                                                                </td>
+                                                                                <td>
+                                                                                    <input name="ctl00$ContentPlaceHolder1$txtkilogram" type="text" id="ContentPlaceHolder1_txtkilogram" class="form-control" style="width:100px;">
 
-                                                                            </td>
-                                                                            <td style="padding-top: 5px; padding-right: 8px;">
-                                                                                <span id="ContentPlaceHolder1_lblkilogram">Kilogram</span>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="width: 55%;">
-                                                                                <span id="ContentPlaceHolder1_lbl3">Gram:</span>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group" style="margin-bottom: 0px;">
-                                                                                    <div>
-                                                                                        <input name="ctl00$ContentPlaceHolder1$txtgaram" type="text" id="ContentPlaceHolder1_txtgaram" class="form-control" style="width:100px;">
+                                                                                </td>
+                                                                                <td style="padding-top: 5px; padding-right: 8px;">
+                                                                                    <span id="ContentPlaceHolder1_lblkilogram">Kilogram</span>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="width: 55%;">
+                                                                                    <span id="ContentPlaceHolder1_lbl3">Gram:</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group" style="margin-bottom: 0px;">
+                                                                                        <div>
+                                                                                            <input name="ctl00$ContentPlaceHolder1$txtgaram" type="text" id="ContentPlaceHolder1_txtgaram" class="form-control" style="width:100px;">
 
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="width: 55%;">
-                                                                                <span id="ContentPlaceHolder1_lbl4">Last Left:</span>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group" style="margin-bottom: 0px;">
-                                                                                    <div>
-                                                                                        <input name="ctl00$ContentPlaceHolder1$txtlastleft" type="text" id="ContentPlaceHolder1_txtlastleft" class="form-control" style="width:100px;">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="width: 55%;">
+                                                                                    <span id="ContentPlaceHolder1_lbl4">Last Left:</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group" style="margin-bottom: 0px;">
+                                                                                        <div>
+                                                                                            <input name="ctl00$ContentPlaceHolder1$txtlastleft" type="text" id="ContentPlaceHolder1_txtlastleft" class="form-control" style="width:100px;">
 
 
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="width: 55%;">
-                                                                                <span id="ContentPlaceHolder1_lbl5">Last Balance:</span>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group">
-                                                                                    <div>
-                                                                                        <input name="ctl00$ContentPlaceHolder1$txtlastbaleance" type="text" id="ContentPlaceHolder1_txtlastbaleance" class="form-control" style="width:100px;">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="width: 55%;">
+                                                                                    <span id="ContentPlaceHolder1_lbl5">Last Balance:</span>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group">
+                                                                                        <div>
+                                                                                            <input name="ctl00$ContentPlaceHolder1$txtlastbaleance" type="text" id="ContentPlaceHolder1_txtlastbaleance" class="form-control" style="width:100px;">
 
 
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                            <td style="width: 55%;">
-                                                                                <label for="exampleInputName2"><b style="font-size: 18px;">Total Amount:</b></label>
-                                                                            </td>
-                                                                            <td>
-                                                                                <div class="form-group">
-                                                                                    <div>
-                                                                                        <span id="ContentPlaceHolder1_lblalltotalamount" style="font-size:20px;"></span>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style="width: 55%;">
+                                                                                    <label for="exampleInputName2"><b style="font-size: 18px;">Total Amount:</b></label>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="form-group">
+                                                                                        <div>
+                                                                                            <span id="ContentPlaceHolder1_lblalltotalamount" style="font-size:20px;"></span>
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </td>
-                                                                        </tr>
-                                                                    </tbody>
-                                                                </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
 
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </fieldset>
+                                                </fieldset>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="pull-right text-center" style="padding: 10px;">
-                        <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="Print" id="ContentPlaceHolder1_Button1" class="btn btn-primary" style="height:30px;">
+                        <div class="pull-right text-center" style="padding: 10px;">
+                            <input type="submit" name="ctl00$ContentPlaceHolder1$Button1" value="Print" id="ContentPlaceHolder1_Button1" class="btn btn-primary" style="height:30px;">
+                        </div>
                     </div>
                 </div>
             </div>
+            <!--//app-wrapper-->
+
+
+            <!-- Javascript -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+            <!-- Page Specific JS -->
+            <script src="assets/js/app.js"></script>
+
+
         </div>
-        <!--//app-wrapper-->
-
-
-        <!-- Javascript -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
-        <!-- Page Specific JS -->
-        <script src="assets/js/app.js"></script>
-
-
-
     </div>
 
     <footer class="app-footer">
